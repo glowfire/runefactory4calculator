@@ -26,7 +26,7 @@ function itemTableEntry(data) {
 	var itemList = "";
 	itemList += "<tr>";
 
-	itemList += "<td>" + data.nameEN + "</a></td>";
+	itemList += "<td>" + data.name + "</a></td>";
 	itemList += "<td>" + data.category + "</td>";
 	itemList += "<td>" + 1 + "</td>";
 	itemList += "<td>" + data.sell + "</td>";
@@ -49,8 +49,8 @@ function itemTableFooter() {
 function showAllItems() {
 	var items = [ ];
 
-	$.each(itemByName, function(index, name) {
-		items.push(name);
+	$.each(masterItemList, function(name, data) {
+		items.push(data);
 	});
 
 var itemList = itemTableHeader();
