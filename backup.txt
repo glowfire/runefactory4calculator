@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <title>Rune Factory 4 Calculator by glowfire</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Rune Factory 4 Calculator</h1>
+        <h2>A financial calculator for Rune Factory 4</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/glowfire/runefactory4calculator/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/glowfire/runefactory4calculator/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/glowfire/runefactory4calculator" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h3>
+<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Work in Progress</h3>
+
+<p>This calculator helps to calculate the profits of operations in Rune Factory 4.</p>
+
+<h3>
+<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer Templates</h3>
+
+<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
+
+<p>
+	<a id="showAllCategoriesBtn" class="button_up"
+		onClick="showAllCategories();">Show All Categories</a>
+</p>
+
+<form>
+  Product:<br>
+  <input type="text" name="product">
+  <input type="submit">
+</form>
+
+<table style="width:100%">
+  <br>
+  <tr>
+    <th>Level</th>
+    <th>Sell Price</th>
+    <th>Profit</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>500</td>
+    <td>20</td>
+  </tr><tr>
+    <td>2</td>
+    <td>600</td>
+    <td>120</td>
+  </tr>
+</table>
+
+<!--<h3>
+<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating pages manually</h3>
+
+<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+
+      </section>
+    </div>
+
+    
+  </body>
+</html>
