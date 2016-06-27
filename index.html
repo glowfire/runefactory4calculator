@@ -5,6 +5,11 @@
   </head>
 
   <body style="background-color:darkgrey;">
+  <script>
+  function myFunction() {
+  	document.getElementById("demo").style.color = "red";
+  	}
+  </script>
 
     <header>
       <div class="container">
@@ -32,6 +37,8 @@
 	<a id="showAllCategoriesBtn" class="button_up"
 		onClick="showAllCategories();">Show All Categories</a>
 </p>
+
+<p id="demo" onclick="myFunction()">Click me to change my text color.</p>
 
 <form>
   Product:<br>
