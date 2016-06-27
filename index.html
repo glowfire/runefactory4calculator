@@ -53,6 +53,8 @@
   <input type="submit">
 </form>
 
+<p id="itemname" value="meh"></p>
+
 <table style="width:100%">
   <br>
   <tr>
@@ -72,8 +74,14 @@
 </table>
 
 <p>
-	<input type="button" onClick="showAllItems();" value="Show All Items">
+	<input type="button" onClick="foo();" value="Show All Items">
 </p>
+
+<script>
+	function foo(){
+		document.getElementById("itemname").value = "Turnip" //masterItemList.turnip.name
+	}
+</script>
 
 <!--<h3>
 <a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating pages manually</h3>
