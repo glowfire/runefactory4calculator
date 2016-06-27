@@ -53,7 +53,7 @@ function showAllItems() {
 		items.push(data);
 	});
 
-var itemList = itemTableHeader();
+	var itemList = itemTableHeader();
 
 	$.each(items, function(index, data) {
 		itemList += itemTableEntry(data);
