@@ -36,7 +36,7 @@ function registerItem(data) {
         masterItemList[data.name.toLowerCase()]=data;
         $.each(data.material,function(index,ingredient){
                 if (ingredient in productMaterialMapping)
-                        productMaterialMapping[ingredient].push(data));
+                        productMaterialMapping[ingredient].push(data);
                 else
                         productMaterialMapping[ingredient] = [data];
         });
